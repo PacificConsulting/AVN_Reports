@@ -765,6 +765,7 @@ report 50004 "Std Sales Credit Memo Copy"
                     UNTIL recSaleCrMemoLine.NEXT = 0;
 
                 // Message('total3', Format(TotalAmount3));
+                //
 
                 SGSTAmount := 0;
                 CGSTAmount := 0;
